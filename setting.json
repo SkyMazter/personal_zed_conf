@@ -1,0 +1,41 @@
+{
+  "autosave": "on_focus_change",
+
+  //Cosmetic Things
+  "cursor_shape": "underline",
+  "icon_theme": "Colored Zed Icons Theme Dark",
+  "ui_font_size": 16,
+  "ui_font_family": "Red Hat Display",
+  "buffer_font_family": "Source Code Pro",
+  "buffer_font_size": 16,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "SynthWave 84 Dark"
+  },
+  "project_panel": {
+    "dock": "right"
+  },
+
+  //Language Configs
+  "languages": {
+    "TypeScript": {
+      "language_servers": ["typescript-language-server"]
+    },
+    "TSX": {
+      "language_servers": [
+        "typescript-language-server",
+        "emmet-language-server"
+      ]
+    },
+    "JavaScript": {
+      "language_servers": ["typescript-language-server"]
+    }
+  },
+
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "moduleResolution": "node"
+  }
+}
